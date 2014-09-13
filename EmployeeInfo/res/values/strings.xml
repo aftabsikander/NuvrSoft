@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EmployeeInfo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Employee Screen String Start -->
+
+    <string name="editText_empName_hint">Enter Your Name</string>
+    <string name="editText_empEmail_hint">Enter Your Email</string>
+    <string name="editText_empPhone_hint">Enter Your Phone</string>
+    <string name="editText_empAddress_hint">Enter Your Address</string>
+    <string name="radio_Male">Male</string>
+    <string name="radio_Female">Female</string>
+    <string name="btn_submit">Register</string>
+
+    <!-- Employee Screen String End -->
+
+    <string name="title_activity_employee_home">Home</string>
+
+</resources>

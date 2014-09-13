@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.nuvrsoft.employeeinfo.EmployeeInfoActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editText_EmpName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/editText_empName_hint"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/text_size_medium" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText_EmpEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/editText_empEmail_hint"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/text_size_medium" />
+
+        <EditText
+            android:id="@+id/editText_EmpNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/editText_empName_hint"
+            android:inputType="phone"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/text_size_medium" />
+
+        <EditText
+            android:id="@+id/editText_EmpAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/editText_empAddress_hint"
+            android:inputType="textPostalAddress"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/text_size_medium" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_Gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/radio_Male" />
+
+            <RadioButton
+                android:id="@+id/radio_Female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_Female" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="8dp"
+        android:text="@string/btn_submit" />
+
+</RelativeLayout>
