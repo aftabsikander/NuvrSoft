@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AgeCalculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Main Screen String Start -->
+
+    <string name="calculate_age">Calculate</string>
+
+    <!-- Main Screen String End -->
+
+
+    <!-- DataBase Name -->
+    <string name="db_name">AgeCalculator.db</string>
+
+</resources>
