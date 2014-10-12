@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TabNavigation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Section Title Fragment Name For Tabs Section -->
+    <string name="tab_Home_Section">Home</string>
+    <string name="tab_People_Section">People</string>
+    <string name="tab_Community_Section">Community</string>
+
+</resources>
